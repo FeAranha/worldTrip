@@ -15,7 +15,7 @@ export function Header() {
                 alignItems="center"
             >
                 <Img
-                    src='../Logo.svg'
+                    src='/image/Logo.svg'
                     alt='World Trip'
                 />
             </Flex>
