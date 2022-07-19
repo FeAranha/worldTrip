@@ -9,7 +9,7 @@ export function Header() {
                 as="header"
                 w="100%"
                 maxWidth={1480}
-                h="100"
+                h="100px"
                 mx="auto"
                 px="6"
                 alignItems="center"

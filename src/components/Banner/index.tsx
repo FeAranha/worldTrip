@@ -1,24 +1,32 @@
-import { Flex, Heading, Img, Text, VStack } from "@chakra-ui/react";
+import { Flex, Heading, Img } from "@chakra-ui/react";
 
 export function Banner() {
   return (
-    <Flex w="100%" backgroundImage="url('/image/BackgroundBanner.svg')">
-      <Flex w="1080px" justify="space-between" margin="0 auto">
-        <Flex p="50px 20px" direction="column" flex="1">
-          <Heading paddingBottom="20px">
-            5 Continentes, infinitas
+    <Flex
+      justifyContent="center"
+      bgImage="url('/image/BackgroundBanner.svg')"
+      bgSize="cover"
+      w="100%"
+      h="335px"
+    >
+      <Flex w="1440px" justify="space-between" margin="0 auto">
+        <Flex direction="column" flex="1">
+          <Heading mt="80px" ml="140px" size="lg" fontWeight="500">
+            5 Continentes, infinita
             <br /> possibilidades.
           </Heading>
-          <Text>
+          <Heading mt="20px" ml="140px" size="small" fontWeight="400">
             Chegou a hora de tirar do papel a viagem que você sempre sonhou.
-          </Text>
+          </Heading>
         </Flex>
 
         <Flex>
-          <Img src="/image/Airplane.svg"
-          mb="-50px"
-          display={['none', 'block']}
-          w="350px"
+          <Img
+            mr="197.25px"
+            src="/image/Airplane.svg"
+            mb="-190px"
+            display={["none", "block"]}
+            w="350px"
           />
         </Flex>
       </Flex>
