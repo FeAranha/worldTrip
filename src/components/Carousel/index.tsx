@@ -1,4 +1,4 @@
-import { Flex, Heading, Img, Text } from "@chakra-ui/react";
+import { Flex, Heading, Text } from "@chakra-ui/react";
 import Link from "next/link";
 import SwiperCore, { Navigation, Pagination, A11y } from "swiper";
 
@@ -12,7 +12,7 @@ export function Carousel() {
       w="100%"
       maxW="1240px"
       mx="auto"
-      mb={["5", "10"]}
+      mb={["5px", "10px"]}
       h={["250px", "450px"]}
     >
       <Swiper
@@ -77,6 +77,7 @@ export function Carousel() {
                   fontSize={["3xl", "4xl", "5xl"]}
                   color="light.info"
                   fontWeight="bold"
+                  mx="0px"
                 >
                   Europa
                 </Heading>
@@ -93,7 +94,6 @@ export function Carousel() {
           </Flex>
         </SwiperSlide>
       </Swiper>
-      <Heading>Europa</Heading>
     </Flex>
   );
 }
