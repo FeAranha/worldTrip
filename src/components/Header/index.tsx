@@ -31,6 +31,7 @@ export function Header() {
           <Link href="/">
             <a>
               <Icon
+                color="#47585B"
                 as={ChevronLeftIcon}
                 fontSize={[20, 40]}
                 justifySelf="start"

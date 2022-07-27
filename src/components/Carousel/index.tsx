@@ -28,14 +28,13 @@ export function Carousel() {
             align="center"
             justify="center"
             direction="column"
-            bgColor="#ccc"
             bgImage="url(/image/europe.svg)"
             bgPosition="center"
             bgRepeat="no-repeat"
             bgSize="cover"
             textAlign="center"
           >
-            <Link href="/continent/europe">
+            <Link href="/continents/europe">
               <a>
                 <Heading
                   fontSize={["3xl", "4xl", "5xl"]}
@@ -64,7 +63,6 @@ export function Carousel() {
             align="center"
             justify="center"
             direction="column"
-            bgColor="#ccc"
             bgImage="url(/image/europe.svg)"
             bgPosition="center"
             bgRepeat="no-repeat"
